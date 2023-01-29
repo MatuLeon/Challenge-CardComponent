@@ -15,7 +15,7 @@ body{
     align-items: center;
 }
 
-@media (max-width: 376px){
+@media (min-width: 374px){
 
     body{
         display: flex;
@@ -99,7 +99,7 @@ body{
     }
 }
 
-@media (min-width:600px){
+@media (min-width:600px) and (max-width:1025px){
     body{
         flex-direction: column;
     }
